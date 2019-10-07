@@ -1,0 +1,104 @@
+
+
+.wp-paginate {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+.wp-paginate > li {
+  display: inline;
+}
+.wp-paginate > li > a,
+.wp-paginate > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #428bca;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.wp-paginate > li > span.current,
+.wp-paginate > li > span.title,
+.wp-paginate > li > span.gap{
+    padding: 5px 12px !important;
+}
+.wp-paginate > li > span.current{
+    color:#fff;
+    background: #00aad5;
+}
+.wp-paginate > li:first-child > a,
+.wp-paginate > li:first-child > span {
+  margin-left: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.wp-paginate > li:last-child > a,
+.wp-paginate > li:last-child > span {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.wp-paginate > li > a:hover,
+.wp-paginate > li > span:hover,
+.wp-paginate > li > a:focus,
+.wp-paginate > li > span:focus {
+  color: #2a6496;
+  background-color: #eee;
+  border-color: #ddd;
+}
+.wp-paginate > .active > a,
+.wp-paginate > .active > span,
+.wp-paginate > .active > a:hover,
+.wp-paginate > .active > span:hover,
+.wp-paginate > .active > a:focus,
+.wp-paginate > .active > span:focus {
+  z-index: 2;
+  color: #fff;
+  cursor: default;
+  background-color: #428bca;
+  border-color: #428bca;
+}
+.wp-paginate > .disabled > span,
+.wp-paginate > .disabled > span:hover,
+.wp-paginate > .disabled > span:focus,
+.wp-paginate > .disabled > a,
+.wp-paginate > .disabled > a:hover,
+.wp-paginate > .disabled > a:focus {
+  color: #999;
+  cursor: not-allowed;
+  background-color: #fff;
+  border-color: #ddd;
+}
+.wp-paginate-lg > li > a,
+.wp-paginate-lg > li > span {
+  padding: 10px 16px;
+  font-size: 18px;
+}
+.wp-paginate-lg > li:first-child > a,
+.wp-paginate-lg > li:first-child > span {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.wp-paginate-lg > li:last-child > a,
+.wp-paginate-lg > li:last-child > span {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.wp-paginate-sm > li > a,
+.wp-paginate-sm > li > span {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+.wp-paginate-sm > li:first-child > a,
+.wp-paginate-sm > li:first-child > span {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.wp-paginate-sm > li:last-child > a,
+.wp-paginate-sm > li:last-child > span {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
